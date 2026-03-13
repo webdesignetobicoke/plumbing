@@ -58,11 +58,11 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center group">
             <Image
-              src="/galaxy plumbing logo.png"
-              alt="Galaxy Plumbing Inc. Logo"
-              width={62}
-              height={90}
-              className="h-[90px] w-auto transition-transform group-hover:scale-105"
+              src="/galaxy_plumbing_white_text_transparent.png"
+              alt="Galaxy Plumbing"
+              width={200}
+              height={80}
+              className="h-[70px] w-auto transition-transform group-hover:scale-105"
               priority
             />
           </Link>
