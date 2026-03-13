@@ -311,3 +311,13 @@ body {
   display: inline-block;
   flex-shrink: 0;
 }
+
+/* ─── MOBILE BUTTON SIZING ─── */
+@media (max-width: 640px) {
+  .btn-primary,
+  .btn-gold,
+  .btn-ghost,
+  .btn-ghost-navy {
+    font-size: 15px;
+  }
+}
