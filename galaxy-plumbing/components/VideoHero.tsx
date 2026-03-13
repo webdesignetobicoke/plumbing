@@ -47,10 +47,10 @@ export default function VideoHero() {
           </p>
 
           <div className="flex flex-wrap gap-4 w-full">
-            <EstimateButton className="btn-gold w-1/2 sm:w-auto">
+            <EstimateButton className="btn-gold w-full sm:w-auto">
               Free Estimate
             </EstimateButton>
-            <a href="tel:416-727-5810" className="btn-ghost w-1/2 sm:w-auto">
+            <a href="tel:416-727-5810" className="btn-ghost w-full sm:w-auto">
               Call 416-727-5810
             </a>
           </div>

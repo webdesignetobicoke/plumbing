@@ -66,8 +66,8 @@ export default function HomePage() {
             Out of this world customer service and craftsmanship for over 20 years.
           </p>
           <div className="flex flex-wrap gap-4 w-full">
-            <Link href="/about" className="btn-primary w-1/2 sm:w-auto">Our Story</Link>
-            <EstimateButton className="btn-ghost-navy w-1/2 sm:w-auto">Free Estimate</EstimateButton>
+            <Link href="/about" className="btn-primary w-full sm:w-auto">Our Story</Link>
+            <EstimateButton className="btn-ghost-navy w-full sm:w-auto">Free Estimate</EstimateButton>
           </div>
         </div>
 
@@ -237,8 +237,8 @@ export default function HomePage() {
               Plumbing emergencies don't wait for business hours. Neither do we. One call gets a real plumber on the line — any time, day or night.
             </p>
             <div className="flex flex-wrap gap-4 w-full">
-              <EstimateButton className="btn-gold w-1/2 sm:w-auto">Free Estimate</EstimateButton>
-              <a href="tel:416-727-5810" className="btn-ghost w-1/2 sm:w-auto">Call 416-727-5810</a>
+              <EstimateButton className="btn-gold w-full sm:w-auto">Free Estimate</EstimateButton>
+              <a href="tel:416-727-5810" className="btn-ghost w-full sm:w-auto">Call 416-727-5810</a>
             </div>
           </div>
           <div className="space-y-4">
