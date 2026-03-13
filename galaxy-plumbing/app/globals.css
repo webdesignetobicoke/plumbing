@@ -312,12 +312,18 @@ body {
   flex-shrink: 0;
 }
 
-/* ─── MOBILE BUTTON SIZING ─── */
+/* ─── MOBILE BUTTON SIZING & BODY COPY ─── */
 @media (max-width: 640px) {
   .btn-primary,
   .btn-gold,
   .btn-ghost,
   .btn-ghost-navy {
     font-size: 15px;
+  }
+
+  /* Make paragraph copy more readable on mobile across all pages */
+  p {
+    font-size: 16px;
+    line-height: 1.7;
   }
 }
