@@ -46,11 +46,11 @@ export default function VideoHero() {
             Out-of-this-world customer service and craftsmanship for over 20 years. Your home is in expert hands.
           </p>
 
-          <div className="flex flex-wrap gap-4">
-            <EstimateButton className="btn-gold text-sm">
+          <div className="flex flex-wrap gap-4 w-full">
+            <EstimateButton className="btn-gold text-sm w-1/2 sm:w-auto">
               Free Estimate
             </EstimateButton>
-            <a href="tel:416-727-5810" className="btn-ghost text-sm">
+            <a href="tel:416-727-5810" className="btn-ghost text-sm w-1/2 sm:w-auto">
               Call 416-727-5810
             </a>
           </div>
