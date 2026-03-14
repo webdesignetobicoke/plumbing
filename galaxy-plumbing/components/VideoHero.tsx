@@ -34,7 +34,7 @@ export default function VideoHero() {
       <div className="absolute inset-0 bg-gradient-to-r from-[#060f24]/50 to-transparent" />
 
       {/* Content */}
-      <div className="relative z-10 max-w-[1400px] mx-auto px-8 pb-24 pt-[260px] lg:pt-[220px] w-full">
+      <div className="relative z-10 max-w-[1400px] mx-auto px-8 pb-24 pt-[320px] sm:pt-[280px] lg:pt-[220px] w-full">
         <div className="max-w-3xl bg-[#060f24]/70 lg:bg-transparent rounded-xl lg:rounded-none p-4 lg:p-0">
           {/* Heading */}
           <h1 className="font-display text-[clamp(3.5rem,9vw,8rem)] text-white leading-[0.9] mb-8 drop-shadow-lg lg:drop-shadow-none">
