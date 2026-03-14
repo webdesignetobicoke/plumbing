@@ -6,6 +6,7 @@ export default function Page() {
       title="In-Floor"
       titleAccent="Heating"
       description="In-floor heating systems offer convenience and efficiency. They can be installed under any type of floor and will drastically reduce heating costs."
+      videoUrl="https://player.vimeo.com/video/593014292"
       sections={[
         {
           heading: 'Cozy home, happy feet.',
@@ -21,7 +22,7 @@ export default function Page() {
             'Steady Temperature V.S. Frequent Irregular AC',
             'Incredible Reliability & Safety',
           ],
-          image: 'https://cdn.prod.website-files.com/60997e06a8d6840ce2b9c2d9/6128276b57e370855d29047a_in-floor%20heating_repair-min.jpg',
+          image: 'https://cdn.prod.website-files.com/60997e06a8d6840ce2b9c2d9/612827622e4cd284c6ed42e2_in-floor%20heating_installation-min-p-500.jpeg',
         },
         {
           heading: 'Why Galaxy Plumbing?',

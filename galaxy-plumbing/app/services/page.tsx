@@ -1,23 +1,24 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 const services = [
-  { name: 'HVAC', href: '/services/hvac', icon: '❄️', desc: 'Too hot? Too cold? Get it just right. Design, install, or upgrade your HVAC system by consulting our experts on the matter.' },
-  { name: 'Faucets', href: '/services/faucets', icon: '🚰', desc: 'Tired of dripping drops? Change or fix your faucet by consulting our experts on the matter.' },
-  { name: 'Water Heaters', href: '/services/water-heaters', icon: '🔥', desc: 'If you are in need of some hot water, water heaters are a must. The only question that remains is: tank or tankless water heater?' },
-  { name: 'In-Floor Heating', href: '/services/in-floor-heating', icon: '♨️', desc: 'No more cold feet with in-floor heating. Installed under any type of flooring, it is a money saver when it comes to electricity bills.' },
-  { name: 'Water Lines', href: '/services/water-lines', icon: '🔵', desc: 'Ever wondered how your home gets the water running down the faucet? The answer lies in the water lines.' },
-  { name: 'Vanities & Sinks', href: '/services/vanities-and-sinks', icon: '✨', desc: 'Ideal under a mirror in a bathroom or a kitchen, vanities\' counters and sinks come in all shapes, colors and sizes.' },
-  { name: 'Water Filtration', href: '/services/water-filtration', icon: '💎', desc: 'Water is essential to life. You want to make sure that the water in your home is safe to use. This is where water filtration comes in handy.' },
-  { name: 'Flood Prevention Solutions', href: '/services/flood-prevention-solutions', icon: '🌊', desc: 'To dig a trench around the house or not? See our solutions to keep flooding outside your home.' },
-  { name: 'Toilet Repairs & Installations', href: '/services/toilet-repairs', icon: '🔧', desc: 'If you don\'t want to find yourself in a sticky situation, you might want to make sure that the toilet is flushing properly and repaired adequately.' },
-  { name: 'Shower Cartridge Replacement', href: '/services/shower-cartridge-replacement', icon: '🚿', desc: 'If you want a durable and enjoyable shower, you might want to think about its maintenance, replacement and repairs, including the shower cartridge.' },
-  { name: 'Sewage Ejector Replacement', href: '/services/sewage-ejector-replacement', icon: '⬆️', desc: 'To prevent sewage backups, think about sewage ejector replacement. When something smells fishy, you call Galaxy!' },
-  { name: 'Sump Pumps', href: '/services/sump-pump', icon: '⚙️', desc: 'Preventing one or multiple home floods is a plumber\'s duty. Devices such as sump pumps are furniture saviors, when it comes to keeping unwanted water out of your basement.' },
-  { name: 'Drain Snaking & Cleaning', href: '/services/drain-snaking-cleaning', icon: '🔩', desc: 'Should you use hydro-jetting or not? See what can help your drain unclog.' },
-  { name: 'Drain Camera Inspection', href: '/services/drain-camera-inspection', icon: '📷', desc: 'Ever wondered what is causing your plumbing to act out? Well, our drain camera goes down your pipe, inspects every inch of its content and reports it back as a live video on our screen.' },
-  { name: 'Active Water Leak Detection', href: '/services/water-leak-detection', icon: '💧', desc: 'There is a device for your plumbing vice. Ask us about the Phyn Plus or sturdy pipes to protect your home from active leaks.' },
-  { name: 'Emergency Repairs', href: '/services/emergency-repairs', icon: '⚡', desc: '24/7 rapid response — day or night, holidays included.', tag: 'Most Popular' },
-  { name: 'Back Water Valves', href: '/services/back-water-valves', icon: '🛡️', desc: 'City-approved flood protection for your basement.' },
+  { name: 'HVAC', href: '/services/hvac', icon: '/icons/imgi_11_60c8f13a540f087f0b6b16db_shower.svg', desc: 'Too hot? Too cold? Get it just right. Design, install, or upgrade your HVAC system by consulting our experts on the matter.' },
+  { name: 'Faucets', href: '/services/faucets', icon: '/icons/imgi_17_60c8f2154d8247045badd39b_faucet.svg', desc: 'Tired of dripping drops? Change or fix your faucet by consulting our experts on the matter.' },
+  { name: 'Water Heaters', href: '/services/water-heaters', icon: '/icons/imgi_13_60c8f2017846e5e7b5b42f2e_water-heater.svg', desc: 'If you are in need of some hot water, water heaters are a must. The only question that remains is: tank or tankless water heater?' },
+  { name: 'In-Floor Heating', href: '/services/in-floor-heating', icon: '/icons/imgi_5_60c8f1c6a32f3852c412ce8b_underfloor-heating.svg', desc: 'No more cold feet with in-floor heating. Installed under any type of flooring, it is a money saver when it comes to electricity bills.' },
+  { name: 'Water Lines', href: '/services/water-lines', icon: '/icons/imgi_16_60c8f1af4d8247bd7cadcfcf_pipe.svg', desc: 'Ever wondered how your home gets the water running down the faucet? The answer lies in the water lines.' },
+  { name: 'Vanities & Sinks', href: '/services/vanities-and-sinks', icon: '/icons/imgi_12_60c8f19754efe0eadbf5a035_sink.svg', desc: 'Ideal under a mirror in a bathroom or a kitchen, vanities\' counters and sinks come in all shapes, colors and sizes.' },
+  { name: 'Water Filtration', href: '/services/water-filtration', icon: '/icons/imgi_8_60c8f18a5dd422daae6be387_water-filter.svg', desc: 'Water is essential to life. You want to make sure that the water in your home is safe to use. This is where water filtration comes in handy.' },
+  { name: 'Flood Prevention Solutions', href: '/services/flood-prevention-solutions', icon: '/icons/imgi_9_698b546004836da2e2057eed_Untitled design.png', desc: 'To dig a trench around the house or not? See our solutions to keep flooding outside your home.' },
+  { name: 'Toilet Repairs & Installations', href: '/services/toilet-repairs', icon: '/icons/imgi_15_60c8f146d5503e413509417e_toilet.svg', desc: 'If you don\'t want to find yourself in a sticky situation, you might want to make sure that the toilet is flushing properly and repaired adequately.' },
+  { name: 'Shower Cartridge Replacement', href: '/services/shower-cartridge-replacement', icon: '/icons/imgi_11_60c8f13a540f087f0b6b16db_shower.svg', desc: 'If you want a durable and enjoyable shower, you might want to think about its maintenance, replacement and repairs, including the shower cartridge.' },
+  { name: 'Sewage Ejector Replacement', href: '/services/sewage-ejector-replacement', icon: '/icons/imgi_2_60c8f0837846e57554b429b5_toolbox.svg', desc: 'To prevent sewage backups, think about sewage ejector replacement. When something smells fishy, you call Galaxy!' },
+  { name: 'Sump Pumps', href: '/services/sump-pump', icon: '/icons/imgi_3_60c8f114a169d930ce989e0c_pump.svg', desc: 'Preventing one or multiple home floods is a plumber\'s duty. Devices such as sump pumps are furniture saviors, when it comes to keeping unwanted water out of your basement.' },
+  { name: 'Drain Snaking & Cleaning', href: '/services/drain-snaking-cleaning', icon: '/icons/imgi_7_60c8f12bfc816e74edb08125_pipe.svg', desc: 'Should you use hydro-jetting or not? See what can help your drain unclog.' },
+  { name: 'Drain Camera Inspection', href: '/services/drain-camera-inspection', icon: '/icons/imgi_10_60c8f0e61f9de62fd1b33dab_camera-lens.svg', desc: 'Ever wondered what is causing your plumbing to act out? Well, our drain camera goes down your pipe, inspects every inch of its content and reports it back as a live video on our screen.' },
+  { name: 'Active Water Leak Detection', href: '/services/water-leak-detection', icon: '/icons/imgi_6_60c8f0b0ec7fdda96efce064_leak.svg', desc: 'There is a device for your plumbing vice. Ask us about the Phyn Plus or sturdy pipes to protect your home from active leaks.' },
+  { name: 'Emergency Repairs', href: '/services/emergency-repairs', icon: '/icons/imgi_4_60c8f170fc6de306d3d4cfcf_clipboard.svg', desc: '24/7 rapid response — day or night, holidays included.', tag: 'Most Popular' },
+  { name: 'Back Water Valves', href: '/services/back-water-valves', icon: '/icons/imgi_14_60c8f0faa47e8e09a361cb4c_water-hose.svg', desc: 'City-approved flood protection for your basement.' },
 ]
 
 export default function ServicesPage() {
@@ -51,7 +52,15 @@ export default function ServicesPage() {
                   {s.tag}
                 </span>
               )}
-              <div className="text-4xl mb-5">{s.icon}</div>
+              <div className="mb-5">
+                <Image
+                  src={s.icon}
+                  alt={`${s.name} icon`}
+                  width={40}
+                  height={40}
+                  className="w-10 h-10 object-contain"
+                />
+              </div>
               <h3 className="font-condensed text-[20px] tracking-wide text-[#060f24] group-hover:text-[#e8a800] transition-colors uppercase mb-2 leading-tight">{s.name}</h3>
               <p className="text-base text-gray-500 leading-relaxed mb-5">{s.desc}</p>
               <div className="flex items-center gap-1.5 opacity-0 group-hover:opacity-100 transition-opacity">
