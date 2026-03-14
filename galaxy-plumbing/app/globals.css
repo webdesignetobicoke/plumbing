@@ -70,7 +70,7 @@ body {
   color: #fff;
   font-family: var(--font-condensed);
   font-weight: 600;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 16px 32px;
@@ -92,7 +92,7 @@ body {
   color: var(--navy);
   font-family: var(--font-condensed);
   font-weight: 700;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 16px 32px;
@@ -117,7 +117,7 @@ body {
   color: #fff;
   font-family: var(--font-condensed);
   font-weight: 600;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 15px 31px;
@@ -139,7 +139,7 @@ body {
   color: var(--navy);
   font-family: var(--font-condensed);
   font-weight: 600;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 15px 31px;
@@ -318,7 +318,7 @@ body {
   .btn-gold,
   .btn-ghost,
   .btn-ghost-navy {
-    font-size: 15px;
+    font-size: 17px;
     width: 100%;
     justify-content: center;
     text-align: center;
