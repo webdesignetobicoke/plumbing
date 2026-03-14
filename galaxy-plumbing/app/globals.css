@@ -319,6 +319,9 @@ body {
   .btn-ghost,
   .btn-ghost-navy {
     font-size: 15px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
   }
 
   /* Make paragraph copy more readable on mobile across all pages */
